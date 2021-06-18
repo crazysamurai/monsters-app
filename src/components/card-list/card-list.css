@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.card-list {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  justify-content: center;
+  margin-top: 2rem;
+}
